@@ -1,0 +1,24 @@
+  <section id="newsletter">
+        <div class="container">
+          <h1>Subscribe to our Newsletter</h1>
+          <form class="" action="index.html" method="post">
+            <input type="email" placeholder="enter Email..." name="" value="">
+            <button type="submit" class="button_1" name="button">Subscribe</button>
+          </form>
+        </div>
+    </section>
+
+
+
+
+css is right here dawg
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+
+just some of it 
+incase you wanna bring it back...

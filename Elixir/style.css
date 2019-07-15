@@ -1,0 +1,327 @@
+body{
+  font-family: 'BioRhyme', serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color:#F4F4F4 ;
+}
+
+/*this can be put anywhere (global)*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+ margin:0;
+ padding: 0
+}
+
+.button_1{
+  height: 38px;
+  background: #008080;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.button_1:hover{
+  background: #079992;
+}
+
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*header*/
+header{
+  background: #35424a;
+  color: #FDF5E6;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #008080 8px solid;
+}
+
+header a{
+  color: #FDF5E6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+  font-family: 'BioRhyme', serif;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+  font-family: 'BioRhyme', serif;
+}
+
+header .highlight, header .current a{
+  color: #008080;
+  font-weight: bold;
+  font-family: 'BioRhyme', serif;
+}
+header .highlight a{
+  font-size: 25px;
+    color: #008080;
+}
+
+header .highlight a:hover{
+  font-size: 25px;
+  color: #079992;
+}
+
+header a:hover {
+  color: #008080;
+  font-weight: bold;
+}
+
+/*  showcase*/
+#showCase{
+  min-height: 500px;
+  background: url('img/background.jpg') no-repeat -2021px -950px;
+  color: #008080;
+  text-align: center;
+  text-indent: left;
+  border-bottom:#008080 5px solid;
+}
+
+
+#showCase h1{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+#showCase h1::after{
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  width: 76%;
+  border-bottom: #008080 4px solid;
+}
+
+
+#showCase p{
+  font-size: 20px;
+}
+
+/* Newsletter starts here and ends before boxes start*/
+#newsletter {
+  padding: 15px;
+  color: #008080;
+  background: #35424a;
+}
+
+#newsletter h1 {
+  float: left;
+  font-family: 'BioRhyme', serif;
+}
+#newsletter .number{
+  color: #008080;
+  text-decoration: none;
+  float: right;
+  margin-top: 15px;
+}
+.number a{
+  color: #008080;
+  text-decoration: none;
+}
+
+#newsletter .number a:hover{
+  color:  #079992;
+  text-decoration: none;
+
+}
+
+
+/*boxes trigga  */
+
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/*REMEMBER THIS IS showCase_2 DONT FUCK UP KID!!!!!!!!!!!! */
+#showCase_2{
+  min-height: 500px;
+  background-color: #35424a;
+  color: #008080;
+  text-align: left;
+}
+
+#showCase_2 h1{
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#showCase_2 h2{
+  content: '';
+    height: 4px;
+    width: 600px;
+    background: #008080;
+    display: block;
+    bottom: 0;
+}
+
+#showCase_2 p{
+  font-size: 30px;
+}
+
+/*GENERAL information trigga  */
+#general {
+  margin-top: 20px;
+  padding-top: 50px;
+  padding-bottom: 45px;
+}
+
+#general .generalinfo {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+
+}
+
+#general .generalinfo p a{
+  text-decoration: none;
+}
+
+.general-contact {
+ text-align: center;
+}
+
+/* sidebar for about*/
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#sidebar .dark:hover {
+  background: #079992;
+  opacity: 0.9;
+}
+
+aside#sidebar .highlight{
+  color: #008080;
+  font-weight: bold;
+}
+
+aside#sidebar .quote input, .quote textarea{
+  width:90%;
+  padding: 5px;
+}
+
+
+  /* main-col*/
+article#main-col{
+  float: left;
+  width: 65%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+ul#services .highlight {
+  color: #008080;
+  font-weight: bold;
+}
+
+/* this is all for the footer dawggggg*/
+footer {
+  padding: 8px;
+  margin-top: 8px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+  font-family: 'BioRhyme', serif;
+}
+
+footer .highlight {
+  color: #008080;
+  font-weight: bold;
+}
+footer .highlight .Efoot {
+  text-decoration: none;
+  color: #008080;
+}
+
+footer .highlight .Efoot:hover{
+  color: #079992;
+  text-decoration: none;
+}
+
+/* media queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  #general .generalinfo,
+  article#main-col,
+  aside#sidebar{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #showCase h1{
+    margin-top: 40px;
+  }
+
+  #newsletter button{
+    display: block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+}
